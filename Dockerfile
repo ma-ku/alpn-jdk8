@@ -1,6 +1,6 @@
 FROM qnib/alpn-rsyslog
 
-ARG JDK="8u72-b15"
+ARG JDK="8u111-b14"
 ENV LANG=C.UTF-8 \
     JAVA_HOME=/usr/lib/jvm/java-8-oracle \
     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/java-8-oracle/bin/
